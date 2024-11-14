@@ -10,16 +10,22 @@
     width:50%;
     border:none;
     border-radius: 30px;
+    transition: border 2s;
+    transition: border 2s,box-shadow 1.5s;
 }
 .main-h a{
     margin-right: 20px;
+    transition: font-size 1s;
 }
 .main-h a:hover{
     color:grey;
+    font-size:20px;
+    transition: font-size 0.5s;
 }
 .main-h:hover{
     border:1px solid #06b6d4;
-    transition: border 2s;
+    box-shadow: 1px 1px 100px 1px #06b6d4;
+    transition: border 2s,box-shadow 1.5s;
 }
 .main{
     display: flex;
@@ -47,7 +53,7 @@ body{
     justify-content: center;
     background-color: #06b6d4;
     box-shadow: 10px 100px 150px 120px #2ca3b9;
-    
+    transition: width 1s,margin-left 1s,background-color 1s,box-shadow 1s,border 1s;
 }
 .line:hover{
     margin-left: 520px;
@@ -63,6 +69,7 @@ body{
     text-align: center;
     margin-top: 100px;
     font-family: sans-serif;
+    transition: opacity 4s,font-size 1s;
 }
 .name:hover{
     opacity:100%;
@@ -81,6 +88,8 @@ body{
     height:60px;
     border-radius: 50%;
     opacity: 50%;
+    transition: margin-bottom 1s;
+    transition: width 1s,height 1s;
 }
 .linkedin{
     margin-right: 10px;
@@ -89,6 +98,8 @@ body{
     height:60px;
     border-radius: 50%;
     opacity: 50%;
+    transition: margin-bottom 1s;
+    transition: width 1s,height 1s;
 }
 .instagram{
     margin-right: 10px;
@@ -97,6 +108,8 @@ body{
     height:60px;
     border-radius: 50%;
     opacity: 50%;
+    transition: margin-bottom 1s;
+    transition: width 1s,height 1s;
 }
 .gmail{
     margin-right: 10px;
@@ -105,6 +118,8 @@ body{
     height:60px;
     border-radius: 50%;
     opacity: 50%;
+    transition: margin-bottom 1s;
+    transition: width 1s,height 1s;
 }
 .github:hover,.linkedin:hover,.instagram:hover,.gmail:hover{
     opacity: 100%;
@@ -114,7 +129,7 @@ body{
     transition: width 1s,height 1s;
     box-shadow: 10px 10px 50px 1px #06b6d4;
     margin-bottom: 10px;
-    transition: margin-bottom 1s;
+    transition: margin-bottom 1s,box-shadow 2s;
 }
 #homepage2{
     width:100%;
@@ -131,10 +146,12 @@ body{
     font-weight: bold;
     text-align: center;
     opacity: 50%;
+    transition: opacity 1s,font-size 1s;
 }
 .projects:hover{
     opacity: 70%;
     font-size:75px;
+    transition: opacity 1s,font-size 1s;
 }
 .description{
     position: relative;
@@ -212,6 +229,7 @@ margin-left: 600px;
     border-radius: 50%;
     margin-left: 550px;
     margin-top: 200px;
+    transition: width 2s,height 2s,opacity 2s,box-shadow 2s,border 2s;
 }
 .css{
     margin-right: 30px;
@@ -219,6 +237,7 @@ margin-left: 600px;
     width:70px;
     height:70px;
     border-radius: 50%;
+    transition: width 2s,height 2s,opacity 2s,box-shadow 2s,border 2s;
 }
 .cpp{
     margin-right: 30px;
@@ -226,12 +245,14 @@ margin-left: 600px;
     width:70px;
     height:70px;
     border-radius: 50%;
+    transition: width 2s,height 2s,opacity 2s,box-shadow 2s,border 2s;
 }
 .python{
     margin-right: 30px;
     position: relative;
     width:70px;
     height:70px;
+    transition: width 2s,height 2s,opacity 2s,box-shadow 2s,border 2s;
     border-radius: 50%;
 }
 .html:hover,.css:hover,.cpp:hover,.python:hover{
@@ -241,9 +262,7 @@ margin-left: 600px;
     border:1px solid #06b6d4;
     box-shadow: 1px 1px 100px 1px #06b6d4;
     transition: width 2s,height 2s,opacity 2s,box-shadow 2s,border 2s;
-}
-.html:hover{
-    margin-left: 540px;
+    box-shadow: 10px 10px 50px 1px #06b6d4;
 }
 .names{
     position: absolute;
@@ -264,6 +283,7 @@ margin-left: 600px;
 footer{
     color: white;
     text-align: center;
+    transition: font-size 2s;
 }
     a {
         text-decoration: none;
@@ -275,3 +295,7 @@ footer{
         padding-left: 585px;
         padding-top: 1rem;
     }
+footer:hover{
+    font-size:20px;
+    transition: font-size 2s;
+}
