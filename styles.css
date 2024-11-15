@@ -167,6 +167,7 @@ body{
     height: 40%;
     margin-top: 40px;
     margin-left: 50px;
+    transition: width 2s,height 2s,opacity 2s,margin-left 2s;
 }
 .netflix:hover{
     width: 43%;
@@ -183,6 +184,7 @@ body{
     width: 40%;
     height: 40%;
     margin-top: 40px;
+    transition: width 2s,height 2s,opacity 2s,margin-left 2s;
 }
 .dine:hover{
     width: 43%;
