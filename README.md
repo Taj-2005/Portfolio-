@@ -18,4 +18,4 @@ You can view the live version of the portfolio at [tajportfolio.vercel.app](http
 1. Clone the repository
    ```bash
    git clone https://github.com/Taj-2005/Portfolio-
-   
+***Thank you***
